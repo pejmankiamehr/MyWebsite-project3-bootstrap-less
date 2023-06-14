@@ -1,0 +1,112 @@
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}
+body{line-height:1}
+ol,ul{list-style:none}
+blockquote,q{quotes:none}
+blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}
+table{border-collapse:collapse;border-spacing:0}
+
+.meno{
+    position: fixed ;
+    right:0 ;
+    left: 0;
+    z-index: 1;
+}
+.dn{
+    background: rgb(241, 91, 4);
+    width: 150px;
+    color: white !important;
+    font-size: 1.2em;
+    transition: all 200ms;
+}
+.dn:hover{
+    background: rgb(241, 91, 4) !important;
+    transform: scale(0.9);
+
+}
+.img1{
+    background-image: url('img 1.jpg');
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 450px;
+}
+.navbar-default{
+    border: none;
+    
+}
+.img1 .btn-info{
+    background: white;
+    
+    
+}
+
+.img1{
+   text-align: center;
+    
+}
+.img1 h1{
+    color: white;
+    font-size: 1.7em;
+    font-weight: bold;
+    margin-top: 20px;
+    
+}
+.img1 h2{
+    margin-bottom: 10px;
+    color: white;
+    font-size: 1.1em;
+    
+    margin-top: 20px;
+
+}
+.img1 a{
+    text-decoration: none;
+    color: black;
+    font-size: 0.8em;
+    
+}
+.main .btn{
+    background: white;
+    border: none;
+    margin-top: 15px;
+    
+    
+}
+.main{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.main1{
+    direction: rtl;
+}
+.main1 h1{
+font-size: 2em;
+font-weight: bold;
+padding-right: 50px;
+margin-top: 40px;
+}
+.main1 h3{
+    font-size: 1.5em;
+    padding-right: 50px;
+    color: rgb(168, 157, 157);
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+.main1 p{
+    font-size: 1.3em;
+    padding-right: 50px;
+    margin-bottom: 20px;
+}
+.main2{
+margin-top: 40px;
+direction: rtl;
+}
+.main2 h1{
+    font-size: 2.2em;
+    font-weight: bold;
+    padding-right: 50px;
+    color: yellow;
+}
